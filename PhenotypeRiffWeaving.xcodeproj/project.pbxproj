@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320C84F52013A1D100587BDB /* StepRemappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C84F42013A1D100587BDB /* StepRemappers.swift */; };
+		320C84F72013A1E500587BDB /* ToneSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320C84F62013A1E500587BDB /* ToneSets.swift */; };
 		326D7B34200E85D800C810BD /* PhenotypeRiffWeaving.h in Headers */ = {isa = PBXBuildFile; fileRef = 326D7B32200E85D800C810BD /* PhenotypeRiffWeaving.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		327201492015EA5C00480720 /* RiffFitness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327201482015EA5C00480720 /* RiffFitness.swift */; };
+		32A8D4002016C45000195DF7 /* RiffMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A8D3FF2016C45000195DF7 /* RiffMapping.swift */; };
+		32E75ABF2023C27100D43FAD /* NoteEventList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E75ABE2023C27100D43FAD /* NoteEventList.swift */; };
+		32E75AC12023C2B600D43FAD /* Riffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E75AC02023C2B600D43FAD /* Riffer.swift */; };
+		32E75AC32023C33A00D43FAD /* TypeDefinitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E75AC22023C33A00D43FAD /* TypeDefinitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		320C84F42013A1D100587BDB /* StepRemappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepRemappers.swift; sourceTree = "<group>"; };
+		320C84F62013A1E500587BDB /* ToneSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToneSets.swift; sourceTree = "<group>"; };
 		326D7B2F200E85D800C810BD /* PhenotypeRiffWeaving.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhenotypeRiffWeaving.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		326D7B32200E85D800C810BD /* PhenotypeRiffWeaving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhenotypeRiffWeaving.h; sourceTree = "<group>"; };
 		326D7B33200E85D800C810BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327201482015EA5C00480720 /* RiffFitness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiffFitness.swift; sourceTree = "<group>"; };
+		32A8D3FF2016C45000195DF7 /* RiffMapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiffMapping.swift; sourceTree = "<group>"; };
+		32E75ABE2023C27100D43FAD /* NoteEventList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEventList.swift; sourceTree = "<group>"; };
+		32E75AC02023C2B600D43FAD /* Riffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riffer.swift; sourceTree = "<group>"; };
+		32E75AC22023C33A00D43FAD /* TypeDefinitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeDefinitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +60,15 @@
 		326D7B31200E85D800C810BD /* PhenotypeRiffWeaving */ = {
 			isa = PBXGroup;
 			children = (
-				326D7B32200E85D800C810BD /* PhenotypeRiffWeaving.h */,
+				32E75ABE2023C27100D43FAD /* NoteEventList.swift */,
+				32E75AC02023C2B600D43FAD /* Riffer.swift */,
+				32A8D3FF2016C45000195DF7 /* RiffMapping.swift */,
+				327201482015EA5C00480720 /* RiffFitness.swift */,
+				32E75AC22023C33A00D43FAD /* TypeDefinitions.swift */,
+				320C84F42013A1D100587BDB /* StepRemappers.swift */,
+				320C84F62013A1E500587BDB /* ToneSets.swift */,
 				326D7B33200E85D800C810BD /* Info.plist */,
+				326D7B32200E85D800C810BD /* PhenotypeRiffWeaving.h */,
 			);
 			path = PhenotypeRiffWeaving;
 			sourceTree = "<group>";
@@ -95,6 +116,7 @@
 				TargetAttributes = {
 					326D7B2E200E85D800C810BD = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327201492015EA5C00480720 /* RiffFitness.swift in Sources */,
+				320C84F52013A1D100587BDB /* StepRemappers.swift in Sources */,
+				320C84F72013A1E500587BDB /* ToneSets.swift in Sources */,
+				32E75ABF2023C27100D43FAD /* NoteEventList.swift in Sources */,
+				32A8D4002016C45000195DF7 /* RiffMapping.swift in Sources */,
+				32E75AC32023C33A00D43FAD /* TypeDefinitions.swift in Sources */,
+				32E75AC12023C2B600D43FAD /* Riffer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +281,7 @@
 		326D7B38200E85D800C810BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -267,6 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = rationum.com.PhenotypeRiffWeaving;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -274,6 +305,7 @@
 		326D7B39200E85D800C810BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
